@@ -4,5 +4,4 @@ orbs:
 workflows:
   checkout-build-test:
     jobs:
-      - gradle/test:
-        cache_key: "a_cache"
+      - gradle/test
