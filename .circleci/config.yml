@@ -5,4 +5,4 @@ workflows:
   checkout-build-test:
     jobs:
       - gradle/test:
-        cache_key: a_cache
+        cache_key: "a_cache"
